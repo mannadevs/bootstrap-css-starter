@@ -1,0 +1,23 @@
+%flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+%flex-center {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+%text-wrap {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+%gradient-color {
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+}

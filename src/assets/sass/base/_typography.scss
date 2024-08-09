@@ -1,0 +1,20 @@
+@include breakpoint(max-lg) {
+  :root {
+    --fs-heading-one: 40px;
+    --fs-heading-two: 36px;
+    --fs-heading-three: 28px;
+    --fs-heading-four: 24px;
+    --fs-heading-five: 20px;
+    --fs-heading-six: 16px;
+  }
+}
+@include breakpoint(max-md) {
+  :root {
+    --fs-heading-one: 36px;
+    --fs-heading-two: 28px;
+    --fs-heading-three: 24px;
+    --fs-heading-four: 20px;
+    --fs-heading-five: 18px;
+    --fs-heading-six: 16px;
+  }
+}
